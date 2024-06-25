@@ -27,8 +27,7 @@
             <label for="editora">Editora</label> <br>
             <input type="text" value="{{ $livro->editora }}" name="editora" id="editora" required> <br>
 
-            <label for="descrição">Descrição</label> <br>
-            <input type="text" value="{{ $livro->descricao }}" name="descricao" id="descrição" required> <br> <br>
+            <br>
  
             <button type="submit">Editar</button> </center>
         </div>

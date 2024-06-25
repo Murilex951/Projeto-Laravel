@@ -33,8 +33,7 @@
             <label for="editora">Editora</label> <br>
             <input type="text" name="editora" id="editora" required> <br>
 
-            <label for="descrição">Descrição</label> <br>
-            <input type="text" name="descricao" id="descricao" required><br> <br>
+            <br>
 
             <button type="submit">Salvar</button>
         </center> 
