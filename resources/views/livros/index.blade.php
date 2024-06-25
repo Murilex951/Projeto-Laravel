@@ -2,11 +2,11 @@
 <html>
 <head>
     <title>Lista de Livros</title>
-    <link rel="stylesheet" href="welcome.css">
+    <link rel="stylesheet" href="lista.css">
 </head>
 <body> <center>
     <h1>Lista de Livros</h1>
-    <a href="{{ route('livros.create') }}">Adicionar Novo Livro</a>
+    <button><a href="{{ route('livros.create') }}">Adicionar Novo Livro</a></button>
     <ul>
         @foreach($livros as $livro)
             <li>Livro: {{ $livro->titulo }} <br>

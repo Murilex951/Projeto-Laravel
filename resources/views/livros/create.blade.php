@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Adicionar Livro</title>
-    <link rel="stylesheet" href="/app.css">
+    <link rel="stylesheet" href="/cad-livros.css">
 </head>
 <body>
     <center>
@@ -34,7 +34,7 @@
             <input type="text" name="editora" id="editora" required> <br>
 
             <label for="descrição">Descrição</label> <br>
-            <input type="text" name="descricao" id="descrição" required><br> <br>
+            <input type="text" name="descricao" id="descricao" required><br> <br>
 
             <button type="submit">Salvar</button>
         </center> 

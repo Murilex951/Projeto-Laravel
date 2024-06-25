@@ -1,0 +1,18 @@
+h1{color: white;}
+
+body{
+    background-color: rgb(17, 24, 39);
+    background-color: 111827;
+    
+
+}
+
+li{color: white;
+    list-style-type: none;
+    margin-right: 2%;
+    
+}
+
+button{
+    text-decoration: none;
+}

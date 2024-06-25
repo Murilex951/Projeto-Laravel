@@ -29,7 +29,7 @@ class LivroController extends Controller
             'edição' => 'required',
             'editora' => 'required',
             'ano_de_publicação' => 'required',
-            'descricao' => 'required'
+            'descricao' => 'required',
         ]);
         
         Livro::create($request->all());
@@ -55,7 +55,7 @@ class LivroController extends Controller
             'edição' => 'required',
             'editora' => 'required',
             'ano_de_publicação' => 'required',
-            'descricao' => 'required'
+            'descricao' => 'required',
         ]);
         
         Livro::where("id", $livro)->update($request->except("_token"));

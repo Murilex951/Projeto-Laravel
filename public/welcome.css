@@ -1,13 +1,17 @@
-h1{color: white;}
+h3{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 50px;
+}
 
 body{
     background-color: rgb(17, 24, 39);
     background-color: 111827;
-
-
+    margin-top: 300px;
 }
-
-li{color: white;
-    list-style-type: none;
-    margin-right: 2%;
+a{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-decoration: none;
 }
