@@ -9,9 +9,9 @@ use Illuminate\Http\Request;
 class LivroController extends Controller
 {   
 
-         public function index()
+    public function index()
     {
-        $livros = Livro::all();
+        $livros = Livro::where('id', auth()->user()->id)->get();
         return view('livros.index', compact('livros'));
     }
 
@@ -28,8 +28,10 @@ class LivroController extends Controller
             'autor' => 'required',
             'edição' => 'required',
             'editora' => 'required',
-            'ano_de_publicação' => 'required'
+            'ano_de_publicação' => 'required',
         ]);
+        
+        $request->merge(['user_id' => auth()->user()->id]);
         
         Livro::create($request->all());
 
